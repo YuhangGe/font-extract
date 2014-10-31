@@ -11,12 +11,7 @@ extract special chars from ttf/otf file to generate little ttf/woff file
 
 Bugs
 --------
-
-* 目前由于opentype.js代码有bug，导致读取某些ttf文件会报错。
-  比如从这里[http://www.maxwhale.com/download/noto/](http://www.maxwhale.com/download/noto/)下载的字体中的NotoSansHans-Black.ttf
-* 生成的ttf和woff文件在chrome中不能正确的使用。
-
-总之，目前这个工具还不可以使用！
+* 目前生成的ttf文件中的字母和数字不正确。（其实是node-freetype库的bug）.
 
 Usage
 -----------
