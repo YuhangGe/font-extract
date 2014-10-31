@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Font Test</title>
+    <style type="text/css">
+        @font-face {
+            font-family: 'superid';
+            /*src: url('superid.ttf') format('truetype');*/
+            /*src: url('NotoSansHans-Thin.otf') format('truetype');*/
+            /*src : url('test.ttf') format('truetype');*/
+            src: url('NotoSansHans-Black.ttf') format('truetype');
+
+        }
+        .p1 {
+            font-family: superid, '黑体';
+            font-size: 43px;
+        }
+        .p2 {
+            font-family: '黑体';
+            font-size: 43px;
+        }
+        .p3 {
+            font-family: Arial;
+            font-size: 45px;
+        }
+    </style>
+</head>
+<body>
+    <p class="p1">超级账号中国制造</p>
+    <p class="p2">超级账号中国制造</p>
+    <p class="p3">Hello SuperID</p>
+</body>
+</html>

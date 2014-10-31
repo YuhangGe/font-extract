@@ -1,0 +1,26 @@
+{
+  "name": "font-extract",
+  "version": "1.0.0",
+  "description": "font extract utility",
+  "main": "index.js",
+  "bin": {
+    "font-extract": ".bin/font-extract.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "font",
+    "extract",
+    "woff",
+    "ttf"
+  ],
+  "author": "Yuhang Ge",
+  "license": "ISC",
+  "dependencies": {
+    "node-freetype": "^1.0.3",
+    "ttf2woff": "^1.3.0",
+    "underscore": "^1.7.0",
+    "yargs": "^1.3.2"
+  }
+}
