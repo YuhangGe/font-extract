@@ -7,7 +7,7 @@ extract special chars from ttf/otf file to generate little ttf/woff file
 这个工具可以用来提取很大的字体中的特定的汉字，然后生成webfont，
 从而减少webfont的体积。
 
-该项目是在opentype.js和svg2ttf的代码上进行了微量的修改后，组合起来的。
+生成的新字体的文件格式可以是ttf或woff，根据output_file的后缀名自动识别（默认为woff格式）。
 
 Bugs
 --------
@@ -21,6 +21,7 @@ Usage
 * -c --char chars to be extracted 需要提取的文字。
 * ttf_file source font file 源字体文件
 * output_file  output font file 输出的字体文件。如果后缀名是ttf则生成ttf文件，如果是woff则生成woff文件。
+* examples: `font-extract -b -c '中国人葛羽航' NotoSansHans-Black.ttf test.woff`
 
 Todo
 --------

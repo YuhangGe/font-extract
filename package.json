@@ -1,6 +1,6 @@
 {
   "name": "font-extract",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "generate sub font and save to ttf/woff file",
   "main": "index.js",
   "bin": {
@@ -22,7 +22,7 @@
   "author": "Yuhang Ge",
   "license": "ISC",
   "dependencies": {
-    "node-freetype": "^1.0.4",
+    "node-freetype": "^1.0.5",
     "underscore": "^1.7.0",
     "yargs": "^1.3.2"
   }

@@ -34,4 +34,10 @@ if(argv.b) {
 //remove repeat chars
 charset = charset.replace(/(.)(?=.*\1)/g, "");
 
-font.convert(argv._[0], charset, argv._[1]);
+try {
+    console.log('Converting...');
+    font.convert(argv._[0], charset, argv._[1]);
+    console.log('...Done!');
+} catch(ex) {
+    console.error('...Error: ', ex);
+}
